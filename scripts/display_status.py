@@ -50,7 +50,7 @@ def format_novel_markdown(novel):
     full_link = f"https://docln.sbs{novel['link']}"
     return f"[{novel['title']}](<{full_link}>)\n> **Trạng thái:** {novel['status']}\n> **Cập nhật:** {novel['last_update']}\n"
 
-def send_status_to_discord(novels, webhook_url):
+def send_status_to_discord(novels, webhook_url, message_id=None):
     # Split novels into chunks of 25 (Discord embed field limit)
     chunk_size = 25
     chunks = [novels[i:i + chunk_size] for i in range(0, len(novels), chunk_size)]
@@ -87,8 +87,15 @@ def send_status_to_discord(novels, webhook_url):
         embeds.append(embed)
 
     payload = {"embeds": embeds}
-    response = requests.post(webhook_url, json=payload)
+    if message_id:
+        # Edit existing message
+        url = f"{webhook_url}/messages/{message_id}"
+        response = requests.patch(url, json=payload)
+    else:
+        # Send new message
+        response = requests.post(webhook_url, json=payload)
     response.raise_for_status()
+    return response.json().get('id') if not message_id else message_id
 
 if __name__ == "__main__":
     base_url = "https://docln.sbs/nhom-dich/3474-the-mavericks"
@@ -104,7 +111,14 @@ if __name__ == "__main__":
     webhook_url = os.environ.get('DISCORD_WEBHOOK_URL')
     if webhook_url:
         try:
-            send_status_to_discord(novels, webhook_url)
+            message_id = None
+            message_id_file = 'message_id.txt'
+            if os.path.exists(message_id_file):
+                with open(message_id_file, 'r') as f:
+                    message_id = f.read().strip()
+            message_id = send_status_to_discord(novels, webhook_url, message_id)
+            with open(message_id_file, 'w') as f:
+                f.write(message_id)
             print("Status sent to Discord")
         except Exception as e:
             print(f"Failed to send to Discord: {e}")
