@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import os
+from datetime import datetime
 
 def scrape_page(url):
     response = requests.get(url)
@@ -19,7 +20,6 @@ def scrape_page(url):
             time_elem = status_elem[1].find('time')
             if time_elem and time_elem.get('datetime'):
                 # Parse ISO datetime and convert to Unix timestamp
-                from datetime import datetime
                 dt_str = time_elem['datetime']
                 dt = datetime.fromisoformat(dt_str.replace('Z', '+00:00'))
                 timestamp = int(dt.timestamp())
