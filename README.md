@@ -7,7 +7,7 @@ Tracking Light/Web Novel translations by The Mavericks team from https://docln.s
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up Discord webhook:
    - Create a webhook in your Discord server
-   - Add the webhook URL as a secret in your GitHub repository: `DISCORD_WEBHOOK_URL`
+   - Add the webhook URL as a secret in your GitHub repository: `STATUS_WEBHOOK_URL`
 4. The GitHub Actions workflow will run every 6 hours to check for updates and post to Discord
 
 ## Manual Run
@@ -17,7 +17,7 @@ To run manually:
 python scraper.py
 ```
 
-Set the `DISCORD_WEBHOOK_URL` environment variable if you want to send updates to Discord.
+Set the `STATUS_WEBHOOK_URL` environment variable if you want to send updates to Discord.
 
 To generate a status report of all novels:
 ```bash

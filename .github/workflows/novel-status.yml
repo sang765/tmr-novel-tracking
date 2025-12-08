@@ -30,7 +30,7 @@ jobs:
 
     - name: Run display status
       env:
-        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        STATUS_WEBHOOK_URL: ${{ secrets.STATUS_WEBHOOK_URL }}
       run: python ./scripts/display_status.py
 
     - name: Commit and push changes

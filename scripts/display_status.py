@@ -108,7 +108,7 @@ if __name__ == "__main__":
 
     print("Status saved to novel_status.md")
 
-    webhook_url = os.environ.get('DISCORD_WEBHOOK_URL')
+    webhook_url = os.environ.get('STATUS_WEBHOOK_URL')
     if webhook_url:
         try:
             message_id = None
