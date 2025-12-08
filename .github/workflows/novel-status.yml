@@ -31,9 +31,13 @@ jobs:
       run: python ./scripts/display_status.py
 
     - name: Commit and push changes
+      env:
+        GIT_TOKEN: ${{ secrets.PAT }}
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        git config credential.helper store
+        echo "https://x-access-token:${GIT_TOKEN}@github.com" > ~/.git-credentials
         git add novel_status.md
         git commit -m "Update novel tracking data" || echo "No changes to commit"
         git push
