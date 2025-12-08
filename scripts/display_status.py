@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import os
 
 def scrape_page(url):
     response = requests.get(url)
@@ -49,6 +50,46 @@ def format_novel_markdown(novel):
     full_link = f"https://docln.sbs{novel['link']}"
     return f"[{novel['title']}](<{full_link}>)\n> **Trạng thái:** {novel['status']}\n> **Cập nhật:** {novel['last_update']}\n"
 
+def send_status_to_discord(novels, webhook_url):
+    # Split novels into chunks of 25 (Discord embed field limit)
+    chunk_size = 25
+    chunks = [novels[i:i + chunk_size] for i in range(0, len(novels), chunk_size)]
+
+    embeds = []
+    for i, chunk in enumerate(chunks):
+        fields = []
+        for novel in chunk:
+            # Truncate title if too long (Discord limit 256 chars for field name)
+            title = novel['title'][:250] + "..." if len(novel['title']) > 250 else novel['title']
+            # Field value with status and update
+            value = f"**Trạng thái:** {novel['status']}\n**Cập nhật:** {novel['last_update']}"
+            # Ensure value is under 1024 chars
+            if len(value) > 1000:
+                value = value[:997] + "..."
+            fields.append({
+                "name": title,
+                "value": value,
+                "inline": False
+            })
+
+        title_text = "Trạng thái các bộ truyện - The Mavericks"
+        if len(chunks) > 1:
+            title_text += f" (phần {i+1})"
+
+        embed = {
+            "title": title_text,
+            "color": 0x0099ff,  # Blue color
+            "fields": fields,
+            "footer": {
+                "text": f"Tổng cộng {len(novels)} bộ truyện • Phần {i+1}/{len(chunks)}"
+            }
+        }
+        embeds.append(embed)
+
+    payload = {"embeds": embeds}
+    response = requests.post(webhook_url, json=payload)
+    response.raise_for_status()
+
 if __name__ == "__main__":
     base_url = "https://docln.sbs/nhom-dich/3474-the-mavericks"
     novels = get_all_novels(base_url)
@@ -59,3 +100,13 @@ if __name__ == "__main__":
             f.write(format_novel_markdown(novel) + "\n")
 
     print("Status saved to novel_status.md")
+
+    webhook_url = os.environ.get('DISCORD_WEBHOOK_URL')
+    if webhook_url:
+        try:
+            send_status_to_discord(novels, webhook_url)
+            print("Status sent to Discord")
+        except Exception as e:
+            print(f"Failed to send to Discord: {e}")
+    else:
+        print("No Discord webhook URL provided")
