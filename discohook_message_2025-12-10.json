@@ -1,0 +1,28 @@
+{
+  "username": "TMR - Thông báo chương",
+  "avatar_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyepr3Ua7oBe6qFLAvKNFh2ZQ2ptwc1zIY7Zr_G98CrNLDX3kxW-5MpfLwZLlFe4jYKIflc0Rlk1005T2JVBuU1-m63DbJMR-A6XPMO3OmQ0qUG47fiASRxd8QQbf-S4e6BEiUBxYNMImdTzYy5GCJN7BPF42u3R_SGI2kOUfISb7LrLtgldOjqXq1YEIk/w397-h397/9A79FAF6-C655-4C48-93F1-532C5A7DD6A0.jpeg",
+  "content": "Thông báo chap mới nè! <@&1424440045116330204>!!!",
+  "embeds": [
+    {
+      "title": "Thông báo update chương mới!!!",
+      "description": "Tên: **Tên Truyện**\nChương: **Tên Chương**\nDanh Mục: **Tên Danh Mục**\nUpload: **<t: timestamp:R>**\n\n**Đọc ngay tại đây:**\n- Link chap tên miền docln.net\n- Link chap tên miền docln.sbs\n- Link chap tên miền ln.hako.vn",
+      "timestamp": "2025-12-09T20:19:39.543Z",
+      "color": 1752220,
+      "footer": {
+        "text": "The Mavericks chapter update checked",
+        "icon_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyepr3Ua7oBe6qFLAvKNFh2ZQ2ptwc1zIY7Zr_G98CrNLDX3kxW-5MpfLwZLlFe4jYKIflc0Rlk1005T2JVBuU1-m63DbJMR-A6XPMO3OmQ0qUG47fiASRxd8QQbf-S4e6BEiUBxYNMImdTzYy5GCJN7BPF42u3R_SGI2kOUfISb7LrLtgldOjqXq1YEIk/w397-h397/9A79FAF6-C655-4C48-93F1-532C5A7DD6A0.jpeg"
+      },
+      "image": {
+        "url": "Ảnh bìa truyện"
+      },
+      "thumbnail": {
+        "url": "Ảnh bìa truyện của danh mục"
+      },
+      "author": {
+        "name": "The Mavericks",
+        "icon_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyepr3Ua7oBe6qFLAvKNFh2ZQ2ptwc1zIY7Zr_G98CrNLDX3kxW-5MpfLwZLlFe4jYKIflc0Rlk1005T2JVBuU1-m63DbJMR-A6XPMO3OmQ0qUG47fiASRxd8QQbf-S4e6BEiUBxYNMImdTzYy5GCJN7BPF42u3R_SGI2kOUfISb7LrLtgldOjqXq1YEIk/w397-h397/9A79FAF6-C655-4C48-93F1-532C5A7DD6A0.jpeg"
+      }
+    }
+  ],
+  "components": []
+}
