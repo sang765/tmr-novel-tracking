@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Class de Ichiban Kawaii Gal wo Ezuke Shiteiru Hanashi](<https://docln.sbs/truyen/23231-chuyen-nuong-chieu-nang-gyaru-dang-yeu-nhat-lop-bang-nhung-mon-an-cua-minh>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765290546:R>
+
 [Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765255212:R>
@@ -95,10 +99,6 @@
 [Bạn gái cũ giờ đã thành giáo viên của tôi và cô ấy muốn nuôi dưỡng mối tình này bằng những chuyến thăm nhà đầy nóng bỏng](<https://docln.sbs/truyen/23337-ban-gai-cu-gio-da-thanh-giao-vien-cua-toi-va-co-ay-muon-nuoi-duong-moi-tinh-nay-bang-nhung-chuyen-tham-nha-day-nong-bong>)
 > **Trạng thái:** Tạm ngưng
 > **Cập nhật:** <t:1760199904:R>
-
-[Class de Ichiban Kawaii Gal wo Ezuke Shiteiru Hanashi](<https://docln.sbs/truyen/23231-chuyen-nuong-chieu-nang-gyaru-dang-yeu-nhat-lop-bang-nhung-mon-an-cua-minh>)
-> **Trạng thái:** Tạm ngưng
-> **Cập nhật:** <t:1760151606:R>
 
 [Flicker Style: A Murder Perfect for Kagami Kimihiko](<https://docln.sbs/truyen/23697-flicker-style-a-murder-perfect-for-kagami-kimihiko>)
 > **Trạng thái:** Tạm ngưng
