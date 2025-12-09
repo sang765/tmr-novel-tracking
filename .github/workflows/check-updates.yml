@@ -1,0 +1,43 @@
+name: Check for New Chapters
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Every 5 minutes
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  check-updates:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for cache.json
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run update checker
+        env:
+          UPDATE_WEBHOOK_URL: ${{ secrets.UPDATE_WEBHOOK_URL }}
+        run: python scripts/check_updates.py
+
+      - name: Commit cache changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add cache.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update cache.json with latest chapter data"
+          git push
