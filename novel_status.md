@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765339847:R>
+
 [Class de Ichiban Kawaii Gal wo Ezuke Shiteiru Hanashi](<https://docln.sbs/truyen/23231-chuyen-nuong-chieu-nang-gyaru-dang-yeu-nhat-lop-bang-nhung-mon-an-cua-minh>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765290546:R>
@@ -19,10 +23,6 @@
 [Sensei… hôn nhau đâu nằm trong phạm vi bài học](<https://docln.sbs/truyen/23653-sensei-hon-nhau-dau-nam-trong-pham-vi-bai-hoc>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765000523:R>
-
-[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1764859572:R>
 
 [Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
 > **Trạng thái:** Đang tiến hành
