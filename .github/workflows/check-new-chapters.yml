@@ -3,7 +3,7 @@ name: Check for New Chapters
 on:
   workflow_call:
     secrets:
-      UPDATE_WEBHOOK_URL:
+      CFU_NOVEL_WEBHOOKS:
         required: false
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
 
       - name: Run update checker
         env:
-          UPDATE_WEBHOOK_URL: ${{ secrets.UPDATE_WEBHOOK_URL }}
+          CFU_NOVEL_WEBHOOKS: ${{ secrets.CFU_NOVEL_WEBHOOKS }}
         run: python scripts/check_updates.py
 
       - name: Commit cache changes

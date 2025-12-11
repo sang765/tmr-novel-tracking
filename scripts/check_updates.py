@@ -318,9 +318,9 @@ class ChapterChecker:
         logger.info("Chapter check completed")
 
 def main():
-    webhook_url = os.getenv('UPDATE_WEBHOOK_URL')
+    webhook_url = os.getenv('CFU_NOVEL_WEBHOOKS')
     if not webhook_url:
-        logger.warning("UPDATE_WEBHOOK_URL environment variable not set - notifications will be skipped")
+        logger.warning("CFU_NOVEL_WEBHOOKS environment variable not set - notifications will be skipped")
 
     checker = ChapterChecker(webhook_url)
     checker.run()
