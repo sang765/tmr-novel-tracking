@@ -15,4 +15,4 @@ jobs:
 
     check_novel_update:
       name: Check Novel Update
-      uses: ./.github/workflows/check-updates.yml
+      uses: ./.github/workflows/check-new-chapters.yml
