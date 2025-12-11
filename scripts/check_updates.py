@@ -38,6 +38,7 @@ class ChapterChecker:
     def __init__(self, webhook_url: str):
         self.webhook_url = webhook_url
         self.cache_file = CACHE_FILE
+        self.group_url = GROUP_URL
         self.session = requests.Session()
         self.session.headers.update(HEADERS)
 
@@ -60,12 +61,12 @@ class ChapterChecker:
         except IOError as e:
             logger.error(f"Failed to save cache: {e}")
 
-    def fetch_page(self) -> Optional[str]:
+    def fetch_page(self, url: str) -> Optional[str]:
         """Fetch the HTML content from the target URL with retry logic."""
         for attempt in range(MAX_RETRIES):
             try:
                 logger.info(f"Fetching page (attempt {attempt + 1}/{MAX_RETRIES})")
-                response = self.session.get(URL, timeout=30)
+                response = self.session.get(url, timeout=30)
                 response.raise_for_status()
                 return response.text
             except requests.RequestException as e:
@@ -77,43 +78,13 @@ class ChapterChecker:
                     return None
         return None
 
-    def parse_novels(self, html: str) -> List[Dict]:
-        """Parse novel information from group page HTML."""
-        soup = BeautifulSoup(html, 'html.parser')
-        novels = []
-
-        # Find all showcase items
-        showcase_items = soup.find_all('div', class_='showcase-item')
-        for item in showcase_items:
-            try:
-                # Extract novel link and title
-                link_elem = item.find('a', href=True)
-                if not link_elem:
-                    continue
-
-                href = link_elem.get('href', '')
-                title = link_elem.get_text(strip=True)
-
-                # Extract novel ID from URL
-                import re
-                id_match = re.search(r'/truyen/(\d+)-', href)
-                if not id_match:
-                    continue
-
-                novel_id = id_match.group(1)
-                novel_url = f"https://ln.hako.vn{href}"
-
-                novels.append({
-                    "id": novel_id,
-                    "title": title,
-                    "url": novel_url
-                })
-            except Exception as e:
-                logger.warning(f"Failed to parse novel item: {e}")
-                continue
-
-        logger.info(f"Parsed {len(novels)} novels")
-        return novels
+    def get_novels(self) -> List[Dict]:
+        """Fetch and parse novels from the group page."""
+        html = self.fetch_page(self.group_url)
+        if not html:
+            logger.error("Failed to fetch group page")
+            return []
+        return self.parse_novels(html)
 
     def parse_chapters(self, html: str) -> List[Dict]:
         """Parse chapter information from HTML."""
@@ -150,6 +121,45 @@ class ChapterChecker:
         chapters.sort(key=lambda x: x['number'], reverse=True)
         logger.info(f"Parsed {len(chapters)} chapters")
         return chapters
+
+    def parse_novels(self, html: str) -> List[Dict]:
+        """Parse novel information from group page HTML."""
+        soup = BeautifulSoup(html, 'html.parser')
+        novels = []
+
+        # Find novel list container - adjust class based on actual HTML
+        novel_list = soup.find('div', class_='list-novel')
+        if not novel_list:
+            # Try alternative selectors
+            novel_list = soup.find('div', class_='series-list') or soup.find('ul', class_='novel-list')
+
+        if not novel_list:
+            logger.warning("Novel list container not found")
+            return novels
+
+        # Find all novel links
+        novel_links = novel_list.find_all('a', href=True)
+        for link in novel_links:
+            try:
+                href = link.get('href', '')
+                title = link.get_text(strip=True)
+
+                # Extract novel ID from URL
+                import re
+                match = re.search(r'/truyen/(\d+)', href)
+                if match:
+                    novel_id = match.group(1)
+                    novels.append({
+                        "id": novel_id,
+                        "title": title,
+                        "url": f"https://ln.hako.vn{href}" if href.startswith('/') else href
+                    })
+            except Exception as e:
+                logger.warning(f"Failed to parse novel link: {e}")
+                continue
+
+        logger.info(f"Parsed {len(novels)} novels")
+        return novels
 
     def extract_chapter_number(self, title: str, href: str) -> Optional[float]:
         """Extract chapter number from title or URL."""
@@ -204,13 +214,15 @@ class ChapterChecker:
             # Update template with chapter data
             embed = template['embeds'][0]
 
-            # Extract chapter info
+            # Extract chapter and novel info
             chapter_num = chapter['number']
             chapter_title = chapter['title']
             chapter_url = chapter['url']
+            novel_title = chapter.get('novel_title', 'Unknown Novel')
+            novel_url = chapter.get('novel_url', '')
 
             # Update embed fields
-            embed['description'] = embed['description'].replace('**Tên Truyện**', 'Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi')
+            embed['description'] = embed['description'].replace('**Tên Truyện**', novel_title)
             embed['description'] = embed['description'].replace('**Tên Chương**', f'Chương {chapter_num}: {chapter_title}')
             embed['description'] = embed['description'].replace('**Tên Danh Mục**', 'The Mavericks')
             embed['description'] = embed['description'].replace('timestamp', str(int(datetime.fromisoformat(chapter['timestamp'].replace('Z', '+00:00')).timestamp())))
@@ -221,9 +233,10 @@ class ChapterChecker:
             # Update timestamp
             embed['timestamp'] = chapter['timestamp']
 
-            # Update image URLs (placeholder)
-            embed['image']['url'] = 'https://i.hako.vn/ln/series/covers/s22527-2e663ae3-a81e-4a43-9be2-a9f090d6b3ec.jpg'
-            embed['thumbnail']['url'] = 'https://i.hako.vn/ln/series/covers/s22527-2e663ae3-a81e-4a43-9be2-a9f090d6b3ec.jpg'
+            # Update image and thumbnail URLs - for now, keep placeholder or try to extract from novel_url
+            # You might need to parse the novel page to get the cover image
+            embed['image']['url'] = 'https://i.hako.vn/ln/series/covers/s22527-2e663ae3-a81e-4a43-9be2-a9f090d6b3ec.jpg'  # Placeholder
+            embed['thumbnail']['url'] = 'https://i.hako.vn/ln/series/covers/s22527-2e663ae3-a81e-4a43-9be2-a9f090d6b3ec.jpg'  # Placeholder
 
             # Send webhook
             response = requests.post(
@@ -233,7 +246,7 @@ class ChapterChecker:
                 timeout=10
             )
             response.raise_for_status()
-            logger.info(f"Discord notification sent for Chapter {chapter_num}")
+            logger.info(f"Discord notification sent for {novel_title} - Chapter {chapter_num}")
 
         except Exception as e:
             logger.error(f"Failed to send Discord notification: {e}")
@@ -245,27 +258,58 @@ class ChapterChecker:
         # Load cache
         cache = self.load_cache()
 
-        # Fetch and parse page
-        html = self.fetch_page()
-        if not html:
-            logger.error("Failed to fetch page, exiting")
+        # Get all novels from group
+        novels = self.get_novels()
+        if not novels:
+            logger.error("No novels found, exiting")
             return
 
-        current_chapters = self.parse_chapters(html)
-        if not current_chapters:
-            logger.warning("No chapters found, exiting")
-            return
+        all_new_chapters = []
 
-        # Find new chapters
-        new_chapters = self.get_new_chapters(current_chapters, cache.get('chapters', []))
+        for novel in novels:
+            novel_id = novel['id']
+            novel_url = novel['url']
+            novel_title = novel['title']
 
-        # Send notifications for new chapters
-        for chapter in new_chapters:
+            logger.info(f"Checking novel: {novel_title}")
+
+            # Fetch novel page
+            html = self.fetch_page(novel_url)
+            if not html:
+                logger.warning(f"Failed to fetch page for {novel_title}")
+                continue
+
+            current_chapters = self.parse_chapters(html)
+            if not current_chapters:
+                logger.warning(f"No chapters found for {novel_title}")
+                continue
+
+            # Get cached chapters for this novel
+            novel_cache = cache['novels'].get(novel_id, {})
+            cached_chapters = novel_cache.get('chapters', [])
+
+            # Find new chapters
+            new_chapters = self.get_new_chapters(current_chapters, cached_chapters)
+
+            # Add novel info to chapters
+            for chapter in new_chapters:
+                chapter['novel_title'] = novel_title
+                chapter['novel_url'] = novel_url
+
+            all_new_chapters.extend(new_chapters)
+
+            # Update cache for this novel
+            if novel_id not in cache['novels']:
+                cache['novels'][novel_id] = {}
+            cache['novels'][novel_id]['chapters'] = current_chapters
+            cache['novels'][novel_id]['last_check'] = datetime.now(timezone.utc).isoformat()
+
+        # Send notifications for all new chapters
+        for chapter in all_new_chapters:
             self.send_discord_notification(chapter)
             time.sleep(1)  # Rate limiting
 
-        # Update cache
-        cache['chapters'] = current_chapters
+        # Update global last_check
         cache['last_check'] = datetime.now(timezone.utc).isoformat()
         self.save_cache(cache)
 
