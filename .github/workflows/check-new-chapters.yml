@@ -4,7 +4,7 @@ on:
   workflow_call:
     secrets:
       UPDATE_WEBHOOK_URL:
-        required: true
+        required: false
 
 jobs:
   check-updates:
