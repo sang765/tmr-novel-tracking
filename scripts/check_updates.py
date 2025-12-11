@@ -127,20 +127,19 @@ class ChapterChecker:
         soup = BeautifulSoup(html, 'html.parser')
         novels = []
 
-        # Find novel list container - adjust class based on actual HTML
-        novel_list = soup.find('div', class_='list-novel')
-        if not novel_list:
-            # Try alternative selectors
-            novel_list = soup.find('div', class_='series-list') or soup.find('ul', class_='novel-list')
-
+        # Find novel list container - based on actual HTML structure
+        novel_list = soup.find('section', class_='showcase-list')
         if not novel_list:
             logger.warning("Novel list container not found")
             return novels
 
-        # Find all novel links
-        novel_links = novel_list.find_all('a', href=True)
-        for link in novel_links:
+        # Find all novel title links
+        novel_titles = novel_list.find_all('h5', class_='series-name')
+        for title_elem in novel_titles:
             try:
+                link = title_elem.find('a', href=True)
+                if not link:
+                    continue
                 href = link.get('href', '')
                 title = link.get_text(strip=True)
 
