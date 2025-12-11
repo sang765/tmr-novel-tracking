@@ -4,12 +4,15 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
     
 jobs:
     status_update:
-        name: Update Novel Status
-        uses: ./.github/workflows/novel-status.yml
+      name: Update Novel Status
+      uses: ./.github/workflows/novel-status.yml
 
     check_novel_update:
-        name: Check Novel Update
-        uses: ./.github/workflows/check-updates.yml
+      name: Check Novel Update
+      uses: ./.github/workflows/check-updates.yml
