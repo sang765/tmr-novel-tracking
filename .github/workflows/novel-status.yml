@@ -1,7 +1,7 @@
 name: Novel Updates Tracker
 
 on:
-  workflow_dispatch:  # Allow manual trigger
+  workflow_call: {}
 
 permissions:
   contents: write
