@@ -35,7 +35,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class ChapterChecker:
-    def __init__(self, webhook_url: str):
+    def __init__(self, webhook_url: Optional[str]):
         self.webhook_url = webhook_url
         self.cache_file = CACHE_FILE
         self.group_url = GROUP_URL
@@ -303,10 +303,13 @@ class ChapterChecker:
             cache['novels'][novel_id]['chapters'] = current_chapters
             cache['novels'][novel_id]['last_check'] = datetime.now(timezone.utc).isoformat()
 
-        # Send notifications for all new chapters
-        for chapter in all_new_chapters:
-            self.send_discord_notification(chapter)
-            time.sleep(1)  # Rate limiting
+        # Send notifications for all new chapters (if webhook is configured)
+        if self.webhook_url:
+            for chapter in all_new_chapters:
+                self.send_discord_notification(chapter)
+                time.sleep(1)  # Rate limiting
+        else:
+            logger.info(f"Skipping Discord notifications ({len(all_new_chapters)} new chapters found)")
 
         # Update global last_check
         cache['last_check'] = datetime.now(timezone.utc).isoformat()
@@ -317,8 +320,7 @@ class ChapterChecker:
 def main():
     webhook_url = os.getenv('UPDATE_WEBHOOK_URL')
     if not webhook_url:
-        logger.error("UPDATE_WEBHOOK_URL environment variable not set")
-        sys.exit(1)
+        logger.warning("UPDATE_WEBHOOK_URL environment variable not set - notifications will be skipped")
 
     checker = ChapterChecker(webhook_url)
     checker.run()
