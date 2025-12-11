@@ -12,7 +12,3 @@ jobs:
     status_update:
       name: Update Novel Status
       uses: ./.github/workflows/novel-status.yml
-
-    check_novel_update:
-      name: Check Novel Update
-      uses: ./.github/workflows/check-new-chapters.yml
