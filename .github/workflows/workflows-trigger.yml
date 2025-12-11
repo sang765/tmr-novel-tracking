@@ -1,4 +1,4 @@
-name: Check for update
+name: Running Novel Tracking Workflows
 
 on:
   schedule:
