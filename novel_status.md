@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Legends](<https://docln.sbs/truyen/24297-legends>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765617063:R>
+
 [Đáng lẽ tôi sẽ không bao giờ yêu em](<https://docln.sbs/truyen/24143-dang-le-toi-se-khong-bao-gio-yeu-em>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765611856:R>
