@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765703209:R>
+
 [Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765646568:R>
@@ -19,10 +23,6 @@
 [Class de Ichiban Kawaii Gal wo Ezuke Shiteiru Hanashi](<https://docln.sbs/truyen/23231-chuyen-nuong-chieu-nang-gyaru-dang-yeu-nhat-lop-bang-nhung-mon-an-cua-minh>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765290546:R>
-
-[Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765255212:R>
 
 [Sensei… hôn nhau đâu nằm trong phạm vi bài học](<https://docln.sbs/truyen/23653-sensei-hon-nhau-dau-nam-trong-pham-vi-bai-hoc>)
 > **Trạng thái:** Đang tiến hành
