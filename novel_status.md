@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Lỡ Trở Thành Trộm Nhưng Đó Lại Là Thiên Chức Với Một Người Mờ Nhạt Như Tôi](<https://docln.sbs/truyen/24324-lo-tro-thanh-trom-nhung-do-lai-la-thien-chuc-voi-mot-nguoi-mo-nhat-nhu-toi>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765797243:R>
+
 [Make Heroine ga Ōsugiru!](<https://docln.sbs/truyen/23058-make-heroine-ga-osugiru>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765789289:R>
