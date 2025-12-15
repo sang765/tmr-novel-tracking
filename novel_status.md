@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Make Heroine ga Ōsugiru!](<https://docln.sbs/truyen/23058-make-heroine-ga-osugiru>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765789289:R>
+
 [Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765703209:R>
@@ -107,10 +111,6 @@
 [Flicker Style: A Murder Perfect for Kagami Kimihiko](<https://docln.sbs/truyen/23697-flicker-style-a-murder-perfect-for-kagami-kimihiko>)
 > **Trạng thái:** Tạm ngưng
 > **Cập nhật:** <t:1760035387:R>
-
-[Make Heroine ga Ōsugiru!](<https://docln.sbs/truyen/23058-make-heroine-ga-osugiru>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1759835814:R>
 
 [Koyanagi-san to](<https://docln.sbs/truyen/22784-koyanagi-san-to>)
 > **Trạng thái:** Tạm ngưng
