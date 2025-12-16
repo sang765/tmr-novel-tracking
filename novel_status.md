@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Sau khi cứu mạng đàn em dễ thương nhất trường, cô ấy không ngừng thúc đẩy mối quan hệ làm vợ tạm trú của tôi](<https://docln.sbs/truyen/24039-sau-khi-cuu-mang-dan-em-de-thuong-nhat-truong-co-ay-khong-ngung-thuc-day-moi-quan-he-lam-vo-tam-tru-cua-toi>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765890317:R>
+
 [Make Heroine ga Ōsugiru!](<https://docln.sbs/truyen/23058-make-heroine-ga-osugiru>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765858502:R>
@@ -79,10 +83,6 @@
 [Oshinobi Ohime-sama](<https://docln.sbs/truyen/22510-cuu-nham-cong-chua-tron-nha-di-choi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1763359338:R>
-
-[Sau khi cứu mạng đàn em dễ thương nhất trường, cô ấy không ngừng thúc đẩy mối quan hệ làm vợ tạm trú của tôi](<https://docln.sbs/truyen/24039-sau-khi-cuu-mang-dan-em-de-thuong-nhat-truong-co-ay-khong-ngung-thuc-day-moi-quan-he-lam-vo-tam-tru-cua-toi>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1763209448:R>
 
 [Vợ Tôi Đến Từ Nước Láng Giềng Quá Đỗi Đáng Yêu, Tôi Phải Làm Sao Đây?](<https://docln.sbs/truyen/23851-vo-toi-den-tu-nuoc-lang-gieng-qua-doi-dang-yeu-toi-phai-lam-sao-day>)
 > **Trạng thái:** Đang tiến hành
