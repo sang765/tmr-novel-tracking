@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765847688:R>
+
 [Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765819211:R>
@@ -35,10 +39,6 @@
 [Sensei… hôn nhau đâu nằm trong phạm vi bài học](<https://docln.sbs/truyen/23653-sensei-hon-nhau-dau-nam-trong-pham-vi-bai-hoc>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765000523:R>
-
-[Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1764774825:R>
 
 [Cô bạn người lai xinh đẹp nhất lớp giờ là em gái kế của tôi và tôi đã vô tình tán tỉnh em ấy lúc nào không hay](<https://docln.sbs/truyen/22604-co-ban-xinh-dep-nguoi-lai-trong-lop-toi-da-tro-thanh-em-gai-ke-toi-da-vo-tinh-tan-tinh-em-ay-luc-nao-khong-hay>)
 > **Trạng thái:** Đang tiến hành
