@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Cô bạn người lai xinh đẹp nhất lớp giờ là em gái kế của tôi và tôi đã vô tình tán tỉnh em ấy lúc nào không hay](<https://docln.sbs/truyen/22604-co-ban-xinh-dep-nguoi-lai-trong-lop-toi-da-tro-thanh-em-gai-ke-toi-da-vo-tinh-tan-tinh-em-ay-luc-nao-khong-hay>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765896888:R>
+
 [Sau khi cứu mạng đàn em dễ thương nhất trường, cô ấy không ngừng thúc đẩy mối quan hệ làm vợ tạm trú của tôi](<https://docln.sbs/truyen/24039-sau-khi-cuu-mang-dan-em-de-thuong-nhat-truong-co-ay-khong-ngung-thuc-day-moi-quan-he-lam-vo-tam-tru-cua-toi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765890317:R>
@@ -43,10 +47,6 @@
 [Sensei… hôn nhau đâu nằm trong phạm vi bài học](<https://docln.sbs/truyen/23653-sensei-hon-nhau-dau-nam-trong-pham-vi-bai-hoc>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765000523:R>
-
-[Cô bạn người lai xinh đẹp nhất lớp giờ là em gái kế của tôi và tôi đã vô tình tán tỉnh em ấy lúc nào không hay](<https://docln.sbs/truyen/22604-co-ban-xinh-dep-nguoi-lai-trong-lop-toi-da-tro-thanh-em-gai-ke-toi-da-vo-tinh-tan-tinh-em-ay-luc-nao-khong-hay>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1764674060:R>
 
 [Nàng gyaru ngây thơ đó đâu phải là bạn gái tôi](<https://docln.sbs/truyen/23418-nang-gyaru-ngay-tho-do-dau-phai-la-ban-gai-toi>)
 > **Trạng thái:** Đang tiến hành
