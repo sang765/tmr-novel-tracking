@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Make Heroine ga Ōsugiru!](<https://docln.sbs/truyen/23058-make-heroine-ga-osugiru>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765858502:R>
+
 [Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765847688:R>
@@ -15,10 +19,6 @@
 [Lỡ Trở Thành Trộm Nhưng Đó Lại Là Thiên Chức Với Một Người Mờ Nhạt Như Tôi](<https://docln.sbs/truyen/24324-lo-tro-thanh-trom-nhung-do-lai-la-thien-chuc-voi-mot-nguoi-mo-nhat-nhu-toi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765797243:R>
-
-[Make Heroine ga Ōsugiru!](<https://docln.sbs/truyen/23058-make-heroine-ga-osugiru>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765789289:R>
 
 [Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
 > **Trạng thái:** Đang tiến hành
