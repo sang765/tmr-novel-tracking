@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765993887:R>
+
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765985611:R>
@@ -27,10 +31,6 @@
 [Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765847688:R>
-
-[Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765819211:R>
 
 [Đáng lẽ tôi sẽ không bao giờ yêu em](<https://docln.sbs/truyen/24143-dang-le-toi-se-khong-bao-gio-yeu-em>)
 > **Trạng thái:** Đang tiến hành
