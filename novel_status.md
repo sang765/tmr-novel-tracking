@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765977703:R>
+
 [Độc Vương: Thức tỉnh năng lực tối thượng ta lập dàn hậu cung tuyệt sắc đầy phát tình](<https://docln.sbs/truyen/23610-doku-no-ou-saikyou-no-chikara-ni-kakusei-shita-ore-wa-biki-tachi-wo-shitagae-hatsujou-harem-no-omo-to-naru>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765974137:R>
@@ -39,10 +43,6 @@
 [Legends](<https://docln.sbs/truyen/24297-legends>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765617063:R>
-
-[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765588684:R>
 
 [Class de Ichiban Kawaii Gal wo Ezuke Shiteiru Hanashi](<https://docln.sbs/truyen/23231-chuyen-nuong-chieu-nang-gyaru-dang-yeu-nhat-lop-bang-nhung-mon-an-cua-minh>)
 > **Trạng thái:** Đang tiến hành
