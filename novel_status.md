@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Độc Vương: Thức tỉnh năng lực tối thượng ta lập dàn hậu cung tuyệt sắc đầy phát tình](<https://docln.sbs/truyen/23610-doku-no-ou-saikyou-no-chikara-ni-kakusei-shita-ore-wa-biki-tachi-wo-shitagae-hatsujou-harem-no-omo-to-naru>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1765974137:R>
+
 [Cô bạn người lai xinh đẹp nhất lớp giờ là em gái kế của tôi và tôi đã vô tình tán tỉnh em ấy lúc nào không hay](<https://docln.sbs/truyen/22604-co-ban-xinh-dep-nguoi-lai-trong-lop-toi-da-tro-thanh-em-gai-ke-toi-da-vo-tinh-tan-tinh-em-ay-luc-nao-khong-hay>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765896888:R>
@@ -55,10 +59,6 @@
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1764443024:R>
-
-[Độc Vương: Thức tỉnh năng lực tối thượng ta lập dàn hậu cung tuyệt sắc đầy phát tình](<https://docln.sbs/truyen/23610-doku-no-ou-saikyou-no-chikara-ni-kakusei-shita-ore-wa-biki-tachi-wo-shitagae-hatsujou-harem-no-omo-to-naru>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1764403269:R>
 
 [Hôm nay cô ấy lại đọc suy nghĩ của tôi rồi](<https://docln.sbs/truyen/22857-hom-nay-co-ay-lai-doc-suy-nghi-cua-toi-roi>)
 > **Trạng thái:** Đang tiến hành
