@@ -2,7 +2,7 @@
 
 [Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
 > **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765993887:R>
+> **Cập nhật:** <t:1766039043:R>
 
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
