@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1766054576:R>
+
 [Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766039043:R>
@@ -39,10 +43,6 @@
 [Lỡ Trở Thành Trộm Nhưng Đó Lại Là Thiên Chức Với Một Người Mờ Nhạt Như Tôi](<https://docln.sbs/truyen/24324-lo-tro-thanh-trom-nhung-do-lai-la-thien-chuc-voi-mot-nguoi-mo-nhat-nhu-toi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765797243:R>
-
-[Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765703209:R>
 
 [Legends](<https://docln.sbs/truyen/24297-legends>)
 > **Trạng thái:** Đang tiến hành
