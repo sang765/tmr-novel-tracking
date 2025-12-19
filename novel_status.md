@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Đáng lẽ tôi sẽ không bao giờ yêu em](<https://docln.sbs/truyen/24143-dang-le-toi-se-khong-bao-gio-yeu-em>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1766146068:R>
+
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766084029:R>
@@ -35,10 +39,6 @@
 [Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765847688:R>
-
-[Đáng lẽ tôi sẽ không bao giờ yêu em](<https://docln.sbs/truyen/24143-dang-le-toi-se-khong-bao-gio-yeu-em>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765815509:R>
 
 [Lỡ Trở Thành Trộm Nhưng Đó Lại Là Thiên Chức Với Một Người Mờ Nhạt Như Tôi](<https://docln.sbs/truyen/24324-lo-tro-thanh-trom-nhung-do-lai-la-thien-chuc-voi-mot-nguoi-mo-nhat-nhu-toi>)
 > **Trạng thái:** Đang tiến hành
