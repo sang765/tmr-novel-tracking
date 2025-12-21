@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Cô nàng người Anh xinh đẹp được mệnh danh là đoá hoa cô độc, muốn được tôi nuông chiều sau khi trở thành em gái kế](<https://docln.sbs/truyen/23250-co-nang-nguoi-anh-duoc-menh-danh-la-doa-hoa-co-doc-muon-duoc-toi-nuong-chieu-sau-khi-tro-thanh-em-gai-ke>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1766320395:R>
+
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766305483:R>
@@ -119,10 +123,6 @@
 [Koyanagi-san to](<https://docln.sbs/truyen/22784-koyanagi-san-to>)
 > **Trạng thái:** Tạm ngưng
 > **Cập nhật:** <t:1759034158:R>
-
-[Cô nàng người Anh xinh đẹp được mệnh danh là đoá hoa cô độc, muốn được tôi nuông chiều sau khi trở thành em gái kế](<https://docln.sbs/truyen/23250-co-nang-nguoi-anh-duoc-menh-danh-la-doa-hoa-co-doc-muon-duoc-toi-nuong-chieu-sau-khi-tro-thanh-em-gai-ke>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1758785561:R>
 
 [Tôi với cô ấy không thể coi là bạn bè](<https://docln.sbs/truyen/23483-toi-voi-cau-ay-khong-the-coi-la-ban-be>)
 > **Trạng thái:** Tạm ngưng
