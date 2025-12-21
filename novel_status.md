@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1766323848:R>
+
 [Cô nàng người Anh xinh đẹp được mệnh danh là đoá hoa cô độc, muốn được tôi nuông chiều sau khi trở thành em gái kế](<https://docln.sbs/truyen/23250-co-nang-nguoi-anh-duoc-menh-danh-la-doa-hoa-co-doc-muon-duoc-toi-nuong-chieu-sau-khi-tro-thanh-em-gai-ke>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766320395:R>
@@ -19,10 +23,6 @@
 [Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766039043:R>
-
-[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765977703:R>
 
 [Độc Vương: Thức tỉnh năng lực tối thượng ta lập dàn hậu cung tuyệt sắc đầy phát tình](<https://docln.sbs/truyen/23610-doku-no-ou-saikyou-no-chikara-ni-kakusei-shita-ore-wa-biki-tachi-wo-shitagae-hatsujou-harem-no-omo-to-naru>)
 > **Trạng thái:** Đang tiến hành
