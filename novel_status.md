@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Công chúa mà tôi chăm sóc cứ bám lấy tôi mãi](<https://docln.sbs/truyen/24388-cong-chua-ma-toi-cham-soc-cu-bam-lay-toi-mai>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1766491844:R>
+
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766341829:R>
