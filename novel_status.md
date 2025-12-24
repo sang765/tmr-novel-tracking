@@ -85,7 +85,7 @@
 > **Cập nhật:** <t:1763641132:R>
 
 [Giải Thoát Nanase-san Nhỏ Nhắn Đáng Yêu Nhưng "To Lớn" Khỏi Gã Bạn Trai Cũ Tồi Tệ Và Làm Cho Cô Ấy Hạnh Phúc](<https://docln.sbs/truyen/23737-giai-thoat-nanase-san-nho-nhan-dang-yeu-nhung-to-lon-khoi-ga-ban-trai-cu-toi-te-va-lam-cho-co-ay-hanh-phuc>)
-> **Trạng thái:** Đang tiến hành
+> **Trạng thái:** Tạm ngưng
 > **Cập nhật:** <t:1763570587:R>
 
 [Oshinobi Ohime-sama](<https://docln.sbs/truyen/22510-cuu-nham-cong-chua-tron-nha-di-choi>)
