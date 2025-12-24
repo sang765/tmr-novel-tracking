@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Chỉ Mình Tôi Biết Rằng Cô Lớp Trưởng Thanh Lịch Của Lớp Tôi Từng Là Một Idol Chuunibyou](<https://docln.sbs/truyen/22539-chi-minh-toi-biet-rang-co-lop-truong-cua-lop-toi-tung-la-mot-idol-chuunibyou>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1766608011:R>
+
 [Công chúa mà tôi chăm sóc cứ bám lấy tôi mãi](<https://docln.sbs/truyen/24388-cong-chua-ma-toi-cham-soc-cu-bam-lay-toi-mai>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766529760:R>
@@ -71,10 +75,6 @@
 [Hôm nay cô ấy lại đọc suy nghĩ của tôi rồi](<https://docln.sbs/truyen/22857-hom-nay-co-ay-lai-doc-suy-nghi-cua-toi-roi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1764163200:R>
-
-[Chỉ Mình Tôi Biết Rằng Cô Lớp Trưởng Thanh Lịch Của Lớp Tôi Từng Là Một Idol Chuunibyou](<https://docln.sbs/truyen/22539-chi-minh-toi-biet-rang-co-lop-truong-cua-lop-toi-tung-la-mot-idol-chuunibyou>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1764155864:R>
 
 [Nawagami-san chỉ muốn bị trói](<https://docln.sbs/truyen/23921-nawagami-san-chi-muon-duoc-troi>)
 > **Trạng thái:** Đang tiến hành
