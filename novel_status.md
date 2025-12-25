@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Legends](<https://docln.sbs/truyen/24297-legends>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1766670060:R>
+
 [Nawagami-san chỉ muốn bị trói](<https://docln.sbs/truyen/23921-nawagami-san-chi-muon-duoc-troi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766665545:R>
@@ -59,10 +63,6 @@
 [Lỡ Trở Thành Trộm Nhưng Đó Lại Là Thiên Chức Với Một Người Mờ Nhạt Như Tôi](<https://docln.sbs/truyen/24324-lo-tro-thanh-trom-nhung-do-lai-la-thien-chuc-voi-mot-nguoi-mo-nhat-nhu-toi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765797243:R>
-
-[Legends](<https://docln.sbs/truyen/24297-legends>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765617063:R>
 
 [Class de Ichiban Kawaii Gal wo Ezuke Shiteiru Hanashi](<https://docln.sbs/truyen/23231-chuyen-nuong-chieu-nang-gyaru-dang-yeu-nhat-lop-bang-nhung-mon-an-cua-minh>)
 > **Trạng thái:** Đang tiến hành
