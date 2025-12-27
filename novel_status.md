@@ -2,7 +2,7 @@
 
 [Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
 > **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1766817246:R>
+> **Cập nhật:** <t:1766818059:R>
 
 [Defy Winter](<https://docln.sbs/truyen/23802-defy-winter>)
 > **Trạng thái:** Đang tiến hành
