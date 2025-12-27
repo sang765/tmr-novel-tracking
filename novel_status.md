@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1766817246:R>
+
 [Defy Winter](<https://docln.sbs/truyen/23802-defy-winter>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766758560:R>
@@ -27,10 +31,6 @@
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766341829:R>
-
-[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1766323848:R>
 
 [Cô nàng người Anh xinh đẹp được mệnh danh là đoá hoa cô độc, muốn được tôi nuông chiều sau khi trở thành em gái kế](<https://docln.sbs/truyen/23250-co-nang-nguoi-anh-duoc-menh-danh-la-doa-hoa-co-doc-muon-duoc-toi-nuong-chieu-sau-khi-tro-thanh-em-gai-ke>)
 > **Trạng thái:** Đang tiến hành
