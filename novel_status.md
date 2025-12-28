@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Cô bạn người lai xinh đẹp nhất lớp giờ là em gái kế của tôi và tôi đã vô tình tán tỉnh em ấy lúc nào không hay](<https://docln.sbs/truyen/22604-co-ban-xinh-dep-nguoi-lai-trong-lop-toi-da-tro-thanh-em-gai-ke-toi-da-vo-tinh-tan-tinh-em-ay-luc-nao-khong-hay>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1766906154:R>
+
 [Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766818059:R>
@@ -51,10 +55,6 @@
 [Độc Vương: Thức tỉnh năng lực tối thượng ta lập dàn hậu cung tuyệt sắc đầy phát tình](<https://docln.sbs/truyen/23610-doku-no-ou-saikyou-no-chikara-ni-kakusei-shita-ore-wa-biki-tachi-wo-shitagae-hatsujou-harem-no-omo-to-naru>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1765974137:R>
-
-[Cô bạn người lai xinh đẹp nhất lớp giờ là em gái kế của tôi và tôi đã vô tình tán tỉnh em ấy lúc nào không hay](<https://docln.sbs/truyen/22604-co-ban-xinh-dep-nguoi-lai-trong-lop-toi-da-tro-thanh-em-gai-ke-toi-da-vo-tinh-tan-tinh-em-ay-luc-nao-khong-hay>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1765896888:R>
 
 [Sau khi cứu mạng đàn em dễ thương nhất trường, cô ấy không ngừng thúc đẩy mối quan hệ làm vợ tạm trú của tôi](<https://docln.sbs/truyen/24039-sau-khi-cuu-mang-dan-em-de-thuong-nhat-truong-co-ay-khong-ngung-thuc-day-moi-quan-he-lam-vo-tam-tru-cua-toi>)
 > **Trạng thái:** Đang tiến hành
