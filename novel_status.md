@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Sau Khi Nhặt Được Con Mèo Đen, Nhà Tôi Trở Thành Địa Điểm Tụ Tập Của Hai Cô Nàng Xinh Đẹp](<https://docln.sbs/truyen/22851-after-i-picked-up-a-black-cat-my-house-became-a-hangout-spot-for-two-beautiful-girls>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1767025123:R>
+
 [Oshinobi Ohime-sama](<https://docln.sbs/truyen/22510-cuu-nham-cong-chua-tron-nha-di-choi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767011819:R>
