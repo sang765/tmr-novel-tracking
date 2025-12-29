@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Oshinobi Ohime-sama](<https://docln.sbs/truyen/22510-cuu-nham-cong-chua-tron-nha-di-choi>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1767011819:R>
+
 [Cô bạn người lai xinh đẹp nhất lớp giờ là em gái kế của tôi và tôi đã vô tình tán tỉnh em ấy lúc nào không hay](<https://docln.sbs/truyen/22604-co-ban-xinh-dep-nguoi-lai-trong-lop-toi-da-tro-thanh-em-gai-ke-toi-da-vo-tinh-tan-tinh-em-ay-luc-nao-khong-hay>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766906154:R>
@@ -91,10 +95,6 @@
 [Giải Thoát Nanase-san Nhỏ Nhắn Đáng Yêu Nhưng "To Lớn" Khỏi Gã Bạn Trai Cũ Tồi Tệ Và Làm Cho Cô Ấy Hạnh Phúc](<https://docln.sbs/truyen/23737-giai-thoat-nanase-san-nho-nhan-dang-yeu-nhung-to-lon-khoi-ga-ban-trai-cu-toi-te-va-lam-cho-co-ay-hanh-phuc>)
 > **Trạng thái:** Tạm ngưng
 > **Cập nhật:** <t:1763570587:R>
-
-[Oshinobi Ohime-sama](<https://docln.sbs/truyen/22510-cuu-nham-cong-chua-tron-nha-di-choi>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1763359338:R>
 
 [Vợ Tôi Đến Từ Nước Láng Giềng Quá Đỗi Đáng Yêu, Tôi Phải Làm Sao Đây?](<https://docln.sbs/truyen/23851-vo-toi-den-tu-nuoc-lang-gieng-qua-doi-dang-yeu-toi-phai-lam-sao-day>)
 > **Trạng thái:** Đang tiến hành
