@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Công chúa mà tôi chăm sóc cứ bám lấy tôi mãi](<https://docln.sbs/truyen/24388-cong-chua-ma-toi-cham-soc-cu-bam-lay-toi-mai>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1767188288:R>
+
 [Oshinobi Ohime-sama](<https://docln.sbs/truyen/22510-cuu-nham-cong-chua-tron-nha-di-choi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767148193:R>
@@ -39,10 +43,6 @@
 [Chỉ Mình Tôi Biết Rằng Cô Lớp Trưởng Thanh Lịch Của Lớp Tôi Từng Là Một Idol Chuunibyou](<https://docln.sbs/truyen/22539-chi-minh-toi-biet-rang-co-lop-truong-cua-lop-toi-tung-la-mot-idol-chuunibyou>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766608011:R>
-
-[Công chúa mà tôi chăm sóc cứ bám lấy tôi mãi](<https://docln.sbs/truyen/24388-cong-chua-ma-toi-cham-soc-cu-bam-lay-toi-mai>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1766529760:R>
 
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
