@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1767233287:R>
+
 [Công chúa mà tôi chăm sóc cứ bám lấy tôi mãi](<https://docln.sbs/truyen/24388-cong-chua-ma-toi-cham-soc-cu-bam-lay-toi-mai>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767188288:R>
@@ -7,10 +11,6 @@
 [Oshinobi Ohime-sama](<https://docln.sbs/truyen/22510-cuu-nham-cong-chua-tron-nha-di-choi>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767148193:R>
-
-[Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1767081199:R>
 
 [Sau Khi Nhặt Được Con Mèo Đen, Nhà Tôi Trở Thành Địa Điểm Tụ Tập Của Hai Cô Nàng Xinh Đẹp](<https://docln.sbs/truyen/22851-after-i-picked-up-a-black-cat-my-house-became-a-hangout-spot-for-two-beautiful-girls>)
 > **Trạng thái:** Đang tiến hành
