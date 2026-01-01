@@ -2,7 +2,7 @@
 
 [Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
 > **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1767233287:R>
+> **Cập nhật:** <t:1767275930:R>
 
 [Công chúa mà tôi chăm sóc cứ bám lấy tôi mãi](<https://docln.sbs/truyen/24388-cong-chua-ma-toi-cham-soc-cu-bam-lay-toi-mai>)
 > **Trạng thái:** Đang tiến hành
