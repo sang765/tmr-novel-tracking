@@ -121,7 +121,7 @@
 > **Cập nhật:** <t:1760284955:R>
 
 [Bạn gái cũ giờ đã thành giáo viên của tôi và cô ấy muốn nuôi dưỡng mối tình này bằng những chuyến thăm nhà đầy nóng bỏng](<https://docln.sbs/truyen/23337-ban-gai-cu-gio-da-thanh-giao-vien-cua-toi-va-co-ay-muon-nuoi-duong-moi-tinh-nay-bang-nhung-chuyen-tham-nha-day-nong-bong>)
-> **Trạng thái:** Tạm ngưng
+> **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1760199904:R>
 
 [Flicker Style: A Murder Perfect for Kagami Kimihiko](<https://docln.sbs/truyen/23697-flicker-style-a-murder-perfect-for-kagami-kimihiko>)
