@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Legends](<https://docln.sbs/truyen/24297-legends>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1767628915:R>
+
 [Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767605892:R>
@@ -31,10 +35,6 @@
 [Defy Winter](<https://docln.sbs/truyen/23802-defy-winter>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766758560:R>
-
-[Legends](<https://docln.sbs/truyen/24297-legends>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1766757420:R>
 
 [Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
 > **Trạng thái:** Đang tiến hành
