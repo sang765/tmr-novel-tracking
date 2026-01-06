@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Vợ Tôi Đến Từ Nước Láng Giềng Quá Đỗi Đáng Yêu, Tôi Phải Làm Sao Đây?](<https://docln.sbs/truyen/23851-vo-toi-den-tu-nuoc-lang-gieng-qua-doi-dang-yeu-toi-phai-lam-sao-day>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1767716213:R>
+
 [Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767707073:R>
@@ -11,10 +15,6 @@
 [Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767605892:R>
-
-[Vợ Tôi Đến Từ Nước Láng Giềng Quá Đỗi Đáng Yêu, Tôi Phải Làm Sao Đây?](<https://docln.sbs/truyen/23851-vo-toi-den-tu-nuoc-lang-gieng-qua-doi-dang-yeu-toi-phai-lam-sao-day>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1767550854:R>
 
 [Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
 > **Trạng thái:** Đang tiến hành
