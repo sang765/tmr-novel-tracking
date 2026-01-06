@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1767707073:R>
+
 [Legends](<https://docln.sbs/truyen/24297-legends>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767628915:R>
@@ -59,10 +63,6 @@
 [Đáng lẽ tôi sẽ không bao giờ yêu em](<https://docln.sbs/truyen/24143-dang-le-toi-se-khong-bao-gio-yeu-em>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766191671:R>
-
-[Nàng Người Mẫu Xinh Đẹp Ở Lớp Chỉ Đến Tiệm Cà Phê Khi Tôi Đang Trong Ca Làm](<https://docln.sbs/truyen/23679-nang-nguoi-mau-xinh-dep-o-lop-chi-den-tiem-ca-phe-khi-toi-dang-trong-ca-lam>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1766039043:R>
 
 [Độc Vương: Thức tỉnh năng lực tối thượng ta lập dàn hậu cung tuyệt sắc đầy phát tình](<https://docln.sbs/truyen/23610-doku-no-ou-saikyou-no-chikara-ni-kakusei-shita-ore-wa-biki-tachi-wo-shitagae-hatsujou-harem-no-omo-to-naru>)
 > **Trạng thái:** Đang tiến hành
