@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Legends](<https://docln.sbs/truyen/24297-legends>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1767891705:R>
+
 [Đáng lẽ tôi sẽ không bao giờ yêu em](<https://docln.sbs/truyen/24143-dang-le-toi-se-khong-bao-gio-yeu-em>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767876479:R>
@@ -7,10 +11,6 @@
 [Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1767803964:R>
-
-[Legends](<https://docln.sbs/truyen/24297-legends>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1767719479:R>
 
 [Vợ Tôi Đến Từ Nước Láng Giềng Quá Đỗi Đáng Yêu, Tôi Phải Làm Sao Đây?](<https://docln.sbs/truyen/23851-vo-toi-den-tu-nuoc-lang-gieng-qua-doi-dang-yeu-toi-phai-lam-sao-day>)
 > **Trạng thái:** Đang tiến hành
