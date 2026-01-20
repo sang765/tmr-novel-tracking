@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1768918898:R>
+
 [Cô bạn người lai xinh đẹp nhất lớp giờ là em gái kế của tôi và tôi đã vô tình tán tỉnh em ấy lúc nào không hay](<https://docln.sbs/truyen/22604-co-ban-xinh-dep-nguoi-lai-trong-lop-toi-da-tro-thanh-em-gai-ke-toi-da-vo-tinh-tan-tinh-em-ay-luc-nao-khong-hay>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1768910010:R>
@@ -43,10 +47,6 @@
 [Defy Winter](<https://docln.sbs/truyen/23802-defy-winter>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766758560:R>
-
-[Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1766674832:R>
 
 [Nawagami-san chỉ muốn bị trói](<https://docln.sbs/truyen/23921-nawagami-san-chi-muon-duoc-troi>)
 > **Trạng thái:** Đang tiến hành
