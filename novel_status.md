@@ -45,7 +45,7 @@
 > **Cập nhật:** <t:1767025123:R>
 
 [Defy Winter](<https://docln.sbs/truyen/23802-defy-winter>)
-> **Trạng thái:** Tạm ngưng
+> **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766758560:R>
 
 [Nawagami-san chỉ muốn bị trói](<https://docln.sbs/truyen/23921-nawagami-san-chi-muon-duoc-troi>)
