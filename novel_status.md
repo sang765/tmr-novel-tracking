@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1769279410:R>
+
 [Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1769263772:R>
@@ -59,10 +63,6 @@
 [Chỉ Mình Tôi Biết Rằng Cô Lớp Trưởng Thanh Lịch Của Lớp Tôi Từng Là Một Idol Chuunibyou](<https://docln.sbs/truyen/22539-chi-minh-toi-biet-rang-co-lop-truong-cua-lop-toi-tung-la-mot-idol-chuunibyou>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1766608011:R>
-
-[Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1766341829:R>
 
 [Cô nàng người Anh xinh đẹp được mệnh danh là đoá hoa cô độc, muốn được tôi nuông chiều sau khi trở thành em gái kế](<https://docln.sbs/truyen/23250-co-nang-nguoi-anh-duoc-menh-danh-la-doa-hoa-co-doc-muon-duoc-toi-nuong-chieu-sau-khi-tro-thanh-em-gai-ke>)
 > **Trạng thái:** Đang tiến hành
