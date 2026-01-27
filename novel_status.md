@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1769484408:R>
+
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1769478093:R>
@@ -27,10 +31,6 @@
 [Legends](<https://docln.sbs/truyen/24297-legends>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1768583908:R>
-
-[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1768494499:R>
 
 [Vợ Tôi Đến Từ Nước Láng Giềng Quá Đỗi Đáng Yêu, Tôi Phải Làm Sao Đây?](<https://docln.sbs/truyen/23851-vo-toi-den-tu-nuoc-lang-gieng-qua-doi-dang-yeu-toi-phai-lam-sao-day>)
 > **Trạng thái:** Đang tiến hành
