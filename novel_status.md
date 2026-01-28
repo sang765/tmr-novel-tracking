@@ -2,7 +2,7 @@
 
 [Make Heroine ga Ōsugiru!](<https://docln.sbs/truyen/23058-make-heroine-ga-osugiru>)
 > **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1769530095:R>
+> **Cập nhật:** <t:1769597513:R>
 
 [Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
 > **Trạng thái:** Đang tiến hành
