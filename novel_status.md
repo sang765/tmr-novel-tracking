@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Chán nản với cuộc sống tôi đặt chân đến ngôi làng nơi những mỹ nhân nhất quyết không chịu buông tôi ra](<https://docln.sbs/truyen/24852-chan-nan-voi-cuoc-song-toi-dat-chan-den-ngoi-lang-noi-nhung-my-nhan-nhat-quyet-khong-chiu-buong-toi-ra>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1769784278:R>
+
 [Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1769669486:R>
