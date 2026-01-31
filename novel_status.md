@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Đáng lẽ tôi sẽ không bao giờ yêu em](<https://docln.sbs/truyen/24143-dang-le-toi-se-khong-bao-gio-yeu-em>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1769845872:R>
+
 [Chán nản với cuộc sống tôi đặt chân đến ngôi làng nơi những mỹ nhân nhất quyết không chịu buông tôi ra](<https://docln.sbs/truyen/24852-chan-nan-voi-cuoc-song-toi-dat-chan-den-ngoi-lang-noi-nhung-my-nhan-nhat-quyet-khong-chiu-buong-toi-ra>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1769784278:R>
@@ -15,10 +19,6 @@
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1769478093:R>
-
-[Đáng lẽ tôi sẽ không bao giờ yêu em](<https://docln.sbs/truyen/24143-dang-le-toi-se-khong-bao-gio-yeu-em>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1769440626:R>
 
 [Cô bạn thời thơ ấu vừa đáng yêu vừa phiền phức từ Mỹ trở về hôm nay lại tiếp tục bắt tôi nhảy.](<https://docln.sbs/truyen/23076-co-ban-thoi-tho-au-vua-dang-yeu-vua-phien-phuc-tu-my-tro-ve-hom-nay-lai-tiep-tuc-bat-toi-nhay>)
 > **Trạng thái:** Đang tiến hành
