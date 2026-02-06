@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1770392306:R>
+
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1770213258:R>
@@ -15,10 +19,6 @@
 [Chán nản với cuộc sống tôi đặt chân đến ngôi làng nơi những mỹ nhân nhất quyết không chịu buông tôi ra](<https://docln.sbs/truyen/24852-chan-nan-voi-cuoc-song-toi-dat-chan-den-ngoi-lang-noi-nhung-my-nhan-nhat-quyet-khong-chiu-buong-toi-ra>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1769784278:R>
-
-[Trò chơi thanh xuân tràn đầy nhiệt huyết của Haibara](<https://docln.sbs/truyen/23979-tro-choi-thanh-xuan-tran-day-nhiet-huyet-cua-haibara>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1769669486:R>
 
 [Make Heroine ga Ōsugiru!](<https://docln.sbs/truyen/23058-make-heroine-ga-osugiru>)
 > **Trạng thái:** Đang tiến hành
