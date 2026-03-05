@@ -35,10 +35,8 @@ jobs:
       env:
         GIT_TOKEN: ${{ secrets.PAT }}
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git config credential.helper store
-        echo "https://x-access-token:${GIT_TOKEN}@github.com" > ~/.git-credentials
+        git config --local user.email "bemimnitran@gmail.com"
+        git config --local user.name "Hà Tiến Sáng"
         git add novel_status.md
         if [ -f message_id.txt ]; then git add message_id.txt; fi
         git commit -m "Update novel tracking data" || echo "No changes to commit"
