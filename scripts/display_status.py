@@ -2,16 +2,43 @@ import requests
 from bs4 import BeautifulSoup
 import os
 from datetime import datetime
+import time
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
-# Default headers to avoid being blocked by anti-scraping measures
+# Create a session for better connection handling
+session = requests.Session()
+
+# Configure retry strategy
+retry_strategy = Retry(
+    total=3,
+    backoff_factor=1,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["HEAD", "GET", "OPTIONS"]
+)
+adapter = HTTPAdapter(max_retries=retry_strategy)
+session.mount("https://", adapter)
+session.mount("http://", adapter)
+
+# Headers to avoid being blocked by anti-scraping measures
 DEFAULT_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.5',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9,vi;q=0.8',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Sec-Fetch-User': '?1',
+    'Cache-Control': 'max-age=0',
 }
 
 def scrape_page(url):
-    response = requests.get(url, headers=DEFAULT_HEADERS)
+    # Add delay to avoid rate limiting
+    time.sleep(2)
+    response = session.get(url, headers=DEFAULT_HEADERS, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
     novels = []
@@ -106,12 +133,29 @@ def send_status_to_discord(novels, webhook_url, message_id=None):
 
 if __name__ == "__main__":
     base_url = "https://docln.sbs/nhom-dich/3474-the-mavericks"
-    novels = get_all_novels(base_url)
-
+    
+    try:
+        novels = get_all_novels(base_url)
+    except Exception as e:
+        print(f"Failed to scrape website: {e}")
+        print("Using existing novel_status.md if available, or creating empty status")
+        novels = []
+        
+        # Try to read existing file
+        if os.path.exists('novel_status.md'):
+            with open('novel_status.md', 'r', encoding='utf-8') as f:
+                existing_content = f.read()
+            print("Using existing novel_status.md content")
+        else:
+            existing_content = "# Trạng thái các bộ truyện - The Mavericks\n\n*Unable to fetch latest data*\n"
+    
     with open('novel_status.md', 'w', encoding='utf-8') as f:
         f.write("# Trạng thái các bộ truyện - The Mavericks\n\n")
-        for novel in novels:
-            f.write(format_novel_markdown(novel) + "\n")
+        if novels:
+            for novel in novels:
+                f.write(format_novel_markdown(novel) + "\n")
+        else:
+            f.write("*Unable to fetch latest data - website may be unavailable*\n")
 
     print("Status saved to novel_status.md")
 
