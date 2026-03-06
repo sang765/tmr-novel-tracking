@@ -131,16 +131,21 @@ async function sendStatusToDiscord(novels: Novel[], webhookUrl: string, messageI
     const fields = [];
     
     for (const novel of chunk) {
-      // Truncate title if too long (Discord limit 256 chars for field name)
-      const title = novel.title.length > 250 ? novel.title.substring(0, 250) + '...' : novel.title;
-      // Field value with status and update
-      let value = `**Trạng thái:** ${novel.status}\n**Cập nhật:** ${novel.last_update}`;
-      // Ensure value is under 1024 chars
-      if (value.length > 1000) {
-        value = value.substring(0, 997) + '...';
+      // Add emoji based on status
+      let statusEmoji = '✒️';
+      const statusLower = novel.status.toLowerCase();
+      if (statusLower.includes('hoàn thành') || statusLower.includes('complete') || statusLower.includes('done')) {
+        statusEmoji = '✅';
+      } else if (statusLower.includes('tạm ngưng') || statusLower.includes('pause') || statusLower.includes('on hold') || statusLower.includes(' hiatus')) {
+        statusEmoji = '⛔';
       }
+      
+      // Truncate title if too long (Discord limit 256 chars for field name)
+      const displayTitle = novel.title.length > 250 ? novel.title.substring(0, 250) + '...' : novel.title;
+      // Compact field value
+      let value = `${statusEmoji} ${novel.status} | ${novel.last_update}`;
       fields.push({
-        "name": title,
+        "name": displayTitle,
         "value": value,
         "inline": false
       });
