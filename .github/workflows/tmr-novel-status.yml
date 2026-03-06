@@ -5,10 +5,13 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   track-updates:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout repository
@@ -40,4 +43,4 @@ jobs:
         git add novel_status.md
         if [ -f message_id.txt ]; then git add message_id.txt; fi
         git commit -m "Update novel tracking data" || echo "No changes to commit"
-        git push
+        git push --force-with-lease || echo "Push failed, continuing anyway"
