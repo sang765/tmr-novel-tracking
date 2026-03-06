@@ -17,22 +17,19 @@ jobs:
         persist-credentials: true
         token: ${{ secrets.PAT }}
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v2
       with:
-        python-version: '3.12'
-        cache: 'pip'
-        cache-dependency-path: 'requirements.txt'
+        bun-version: latest
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        bun install
 
     - name: Run display status
       env:
         STATUS_WEBHOOK_URL: ${{ secrets.STATUS_WEBHOOK_URL }}
-      run: python ./scripts/display_status.py
+      run: bun run scripts/display_status.ts
 
     - name: Commit and push changes
       env:
