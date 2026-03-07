@@ -91,10 +91,10 @@ async function getTotalPages(page: Page): Promise<number> {
     // Use evaluate with any type to avoid TypeScript DOM issues
     // This runs in browser context where document is available
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const totalPages = await (page as any).evaluate(() => {
+    const totalPages = await page.evaluate(() => {
       try {
         // Look for pagination container
-        const pagination = (window as any).document.querySelector('nav.pagination, ul.pagination, div.pagination');
+        const pagination = document.querySelector('nav.pagination, ul.pagination, div.pagination');
         if (pagination) {
           const links = pagination.querySelectorAll('a');
           let maxPage = 1;
@@ -109,19 +109,19 @@ async function getTotalPages(page: Page): Promise<number> {
         }
         
         // Try to find last page link
-        const lastLink = (window as any).document.querySelector('a[rel="last"], a.page-last, li.last a');
+        const lastLink = document.querySelector('a[rel="last"], a.page-last, li.last a');
         if (lastLink) {
           const href = lastLink.getAttribute('href') || '';
           const match = href.match(/page=(\d+)/);
-          if (match) return parseInt(match[1], 10);
+          if (match && match[1]) return parseInt(match[1], 10);
         }
         
         // Try to find page info text like "Page X of Y"
-        const pageInfo = (window as any).document.querySelector('span.page-info, div.page-info, .pagination-info');
+        const pageInfo = document.querySelector('span.page-info, div.page-info, .pagination-info');
         if (pageInfo) {
           const text = pageInfo.textContent || '';
           const match = text.match(/(\d+)\s*\/\s*(\d+)/);
-          if (match) return parseInt(match[2], 10);
+          if (match && match[2]) return parseInt(match[2], 10);
         }
         
         return 1;
