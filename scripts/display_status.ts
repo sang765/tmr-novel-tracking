@@ -199,7 +199,7 @@ async function getAllNovels(baseUrl: string, maxPages: number = 10): Promise<Nov
 }
 
 function formatNovelMarkdown(novel: Novel): string {
-  const fullLink = `https://docln.sbs${novel.link}`;
+  const fullLink = `https://ln.hako.vn${novel.link}`;
   return `[${novel.title}](<${fullLink}>)\n> **Trạng thái:** ${novel.status}\n> **Cập nhật:** ${novel.last_update}\n`;
 }
 
@@ -334,7 +334,7 @@ async function sendStatusToDiscord(novels: Novel[], webhookUrl: string, messageI
 }
 
 async function main() {
-  const baseUrl = "https://docln.sbs/nhom-dich/3474-the-mavericks";
+  const baseUrl = "https://ln.hako.vn/nhom-dich/3474-the-mavericks";
   let novels: Novel[] = [];
   
   try {
