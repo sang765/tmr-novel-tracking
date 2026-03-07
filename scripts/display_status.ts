@@ -204,6 +204,35 @@ function formatNovelMarkdown(novel: Novel): string {
 }
 
 async function sendStatusToDiscord(novels: Novel[], webhookUrl: string, messageId: string | null = null): Promise<string | null> {
+  // Handle empty novels array - send a message indicating no novels found
+  if (!novels || novels.length === 0) {
+    const payload = {
+      "embeds": [{
+        "title": "Trạng thái các bộ truyện - The Mavericks",
+        "description": "Không tìm thấy truyện nào để hiển thị. Có thể trang web nguồn đang gặp sự cố hoặc thay đổi cấu trúc.",
+        "color": 0xff0000 // Red color for error/warning
+      }]
+    };
+    
+    const method = messageId ? 'patch' : 'post';
+    const url = messageId ? `${webhookUrl}/messages/${messageId}` : webhookUrl;
+    
+    const response = await fetch(url, {
+      method,
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    });
+    
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(`HTTP error! status: ${response.status}, body: ${errorText}`);
+    }
+    
+    return messageId || null;
+  }
+
   // Split novels into chunks of 25 (Discord embed field limit)
   const chunkSize = 25;
   const chunks: Novel[][] = [];
