@@ -1,7 +1,6 @@
 import puppeteer, { Browser, Page } from 'puppeteer';
 import { config } from 'dotenv';
 import * as fs from 'fs';
-import * as path from 'path';
 
 // Load environment variables
 config();
@@ -87,7 +86,61 @@ async function scrapePage(url: string, page: Page): Promise<Novel[]> {
   return novels;
 }
 
-async function getAllNovels(baseUrl: string, maxPages: number = 2): Promise<Novel[]> {
+async function getTotalPages(page: Page): Promise<number> {
+  try {
+    // Use evaluate with any type to avoid TypeScript DOM issues
+    // This runs in browser context where document is available
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const totalPages = await (page as any).evaluate(() => {
+      try {
+        // Look for pagination container
+        const pagination = (window as any).document.querySelector('nav.pagination, ul.pagination, div.pagination');
+        if (pagination) {
+          const links = pagination.querySelectorAll('a');
+          let maxPage = 1;
+          links.forEach((link: Element) => {
+            const text = link.textContent?.trim() || '';
+            const pageNum = parseInt(text, 10);
+            if (!isNaN(pageNum) && pageNum > maxPage) {
+              maxPage = pageNum;
+            }
+          });
+          if (maxPage > 1) return maxPage;
+        }
+        
+        // Try to find last page link
+        const lastLink = (window as any).document.querySelector('a[rel="last"], a.page-last, li.last a');
+        if (lastLink) {
+          const href = lastLink.getAttribute('href') || '';
+          const match = href.match(/page=(\d+)/);
+          if (match) return parseInt(match[1], 10);
+        }
+        
+        // Try to find page info text like "Page X of Y"
+        const pageInfo = (window as any).document.querySelector('span.page-info, div.page-info, .pagination-info');
+        if (pageInfo) {
+          const text = pageInfo.textContent || '';
+          const match = text.match(/(\d+)\s*\/\s*(\d+)/);
+          if (match) return parseInt(match[2], 10);
+        }
+        
+        return 1;
+      } catch (e) {
+        return 1;
+      }
+    });
+    
+    if (totalPages > 1) {
+      console.log(`Found pagination: ${totalPages} pages`);
+    }
+    return totalPages;
+  } catch (error) {
+    console.error('Error detecting total pages:', error);
+    return 1;
+  }
+}
+
+async function getAllNovels(baseUrl: string, maxPages: number = 10): Promise<Novel[]> {
   const allNovels: Novel[] = [];
   
   const browser = await puppeteer.launch({
@@ -98,11 +151,45 @@ async function getAllNovels(baseUrl: string, maxPages: number = 2): Promise<Nove
   try {
     const page = await browser.newPage();
     
-    for (let pageNum = 1; pageNum <= maxPages; pageNum++) {
+    // First, get the first page and detect total pages
+    const firstPageUrl = `${baseUrl}?page=1`;
+    console.log(`Scraping first page to detect pagination: ${firstPageUrl}`);
+    await scrapePage(firstPageUrl, page);
+    
+    // Detect total pages
+    const totalPages = await getTotalPages(page);
+    const pagesToScrape = Math.min(totalPages, maxPages);
+    console.log(`Will scrape ${pagesToScrape} pages total`);
+    
+    // Now scrape all pages
+    for (let pageNum = 1; pageNum <= pagesToScrape; pageNum++) {
       const url = `${baseUrl}?page=${pageNum}`;
-      console.log(`Scraping ${url}`);
+      console.log(`Scraping page ${pageNum}/${pagesToScrape}: ${url}`);
       const novels = await scrapePage(url, page);
       allNovels.push(...novels);
+    }
+    
+    // If we found novels and only scraped 1 page, try page 2 to check if there are more
+    if (pagesToScrape === 1 && allNovels.length > 0) {
+      console.log("Only 1 page detected, checking page 2 to verify...");
+      const page2Url = `${baseUrl}?page=2`;
+      const page2Novels = await scrapePage(page2Url, page);
+      if (page2Novels.length > 0) {
+        console.log(`Found ${page2Novels.length} novels on page 2, scraping additional pages...`);
+        allNovels.push(...page2Novels);
+        // Continue checking for more pages
+        let pageNum = 3;
+        while (true) {
+          const nextUrl = `${baseUrl}?page=${pageNum}`;
+          const nextNovels = await scrapePage(nextUrl, page);
+          if (nextNovels.length === 0) break;
+          console.log(`Found ${nextNovels.length} novels on page ${pageNum}`);
+          allNovels.push(...nextNovels);
+          pageNum++;
+        }
+      } else {
+        console.log("Page 2 is empty, no more novels to scrape");
+      }
     }
   } finally {
     await browser.close();

@@ -1,5 +1,9 @@
 # Trạng thái các bộ truyện - The Mavericks
 
+[Độc Vương: Thức tỉnh năng lực tối thượng ta lập dàn hậu cung tuyệt sắc đầy phát tình](<https://docln.sbs/truyen/23610-doku-no-ou-saikyou-no-chikara-ni-kakusei-shita-ore-wa-biki-tachi-wo-shitagae-hatsujou-harem-no-omo-to-naru>)
+> **Trạng thái:** Đang tiến hành
+> **Cập nhật:** <t:1772804513:R>
+
 [Legends](<https://docln.sbs/truyen/24297-legends>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1772776450:R>
@@ -15,10 +19,6 @@
 [Hậu bối giỏi giang sống đối diện nhà tôi chỉ muốn được chiều chuộng qua hiên nhà.](<https://docln.sbs/truyen/24061-hau-boi-gioi-giang-song-doi-dien-nha-toi-chi-muon-duoc-chieu-chuong-qua-hien-nha>)
 > **Trạng thái:** Đang tiến hành
 > **Cập nhật:** <t:1772388093:R>
-
-[Độc Vương: Thức tỉnh năng lực tối thượng ta lập dàn hậu cung tuyệt sắc đầy phát tình](<https://docln.sbs/truyen/23610-doku-no-ou-saikyou-no-chikara-ni-kakusei-shita-ore-wa-biki-tachi-wo-shitagae-hatsujou-harem-no-omo-to-naru>)
-> **Trạng thái:** Đang tiến hành
-> **Cập nhật:** <t:1772386729:R>
 
 [Khi mà tôi đang tư vấn tình cảm cho cậu bạn thân, bỗng dưng cô gái nổi tiếng nhất trường trở nên thân thiết với tôi](<https://docln.sbs/truyen/22527-gakkou-ichi-no-bishoujo-to-shinyuu-doushi-no-renai-soudan-ni-notte-itara-itsunomanika-kanojo-ga-dare-yori-mo-chikai-sonzai-ni-natteta-ken>)
 > **Trạng thái:** Đang tiến hành
