@@ -291,7 +291,7 @@ async function sendStatusToDiscord(novels: Novel[], webhookUrl: string, messageI
     
     for (const novel of chunk) {
       // Add emoji based on status
-      let statusEmoji = '✒️';
+      let statusEmoji = '✏️';
       const statusLower = novel.status.toLowerCase();
       if (statusLower.includes('hoàn thành') || statusLower.includes('complete') || statusLower.includes('done')) {
         statusEmoji = '✅';
