@@ -21,6 +21,7 @@ const BASE_URL = "https://ln.hako.vn/nhom-dich/3474-the-mavericks";
 async function main() {
   const baseUrl = BASE_URL;
   let novels: Novel[] = [];
+  let errorLog: string | undefined = undefined;
   
   let browser: Browser | null = null;
   
@@ -176,6 +177,9 @@ async function main() {
     }
     console.log("Using empty novel list");
     novels = [];
+    
+    // Store error for Discord message
+    errorLog = error instanceof Error ? `${error.name}: ${error.message}` : String(error);
   } finally {
     if (browser) {
       await browser.close();
@@ -206,7 +210,7 @@ async function main() {
         messageId = fs.readFileSync(messageIdFile, 'utf-8').trim() || null;
       }
       
-      messageId = await sendStatusToDiscord(novels, webhookUrl, messageId);
+      messageId = await sendStatusToDiscord(novels, webhookUrl, messageId, errorLog);
       if (messageId) {
         fs.writeFileSync(messageIdFile, messageId, 'utf-8');
       }
@@ -224,13 +228,20 @@ function formatNovelMarkdown(novel: Novel): string {
   return `[${novel.title}](<${fullLink}>)\n> **Trạng thái:** ${novel.status}\n> **Cập nhật:** ${novel.last_update}\n`;
 }
 
-async function sendStatusToDiscord(novels: Novel[], webhookUrl: string, messageId: string | null = null): Promise<string | null> {
+async function sendStatusToDiscord(novels: Novel[], webhookUrl: string, messageId: string | null = null, errorLog?: string): Promise<string | null> {
   // Handle empty novels array
   if (!novels || novels.length === 0) {
+    let errorDescription = "Không tìm thấy truyện nào để hiển thị. Có thể trang web nguồn đang gặp sự cố hoặc thay đổi cấu trúc.";
+    
+    // Include failed log if provided
+    if (errorLog) {
+      errorDescription += "\n\n```bash\n" + errorLog + "\n```";
+    }
+    
     const payload = {
       "embeds": [{
         "title": "Trạng thái các bộ truyện - The Mavericks",
-        "description": "Không tìm thấy truyện nào để hiển thị. Có thể trang web nguồn đang gặp sự cố hoặc thay đổi cấu trúc.",
+        "description": errorDescription,
         "color": 0xff0000
       }]
     };
