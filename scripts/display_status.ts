@@ -22,11 +22,13 @@ async function main() {
   const baseUrl = BASE_URL;
   let novels: Novel[] = [];
   let errorLog: string | undefined = undefined;
+  let lastScrapedUrl: string = '';
   
   let browser: Browser | null = null;
   
   try {
     // Launch browser
+    console.log('[DEBUG] Starting browser launch...');
     browser = await puppeteer.launch({
       headless: true,
       args: [
@@ -37,8 +39,10 @@ async function main() {
       ],
       defaultViewport: { width: 1920, height: 1080 },
     });
+    console.log('[DEBUG] Browser launched successfully');
     
     const page = await browser.newPage();
+    console.log('[DEBUG] New page created');
     
     // Set user agent
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
@@ -46,8 +50,10 @@ async function main() {
     // Navigate to first page
     const firstPageUrl = `${baseUrl}?page=1`;
     console.log(`Navigating to: ${firstPageUrl}`);
+    lastScrapedUrl = firstPageUrl;
     
     await page.goto(firstPageUrl, { waitUntil: 'networkidle0', timeout: 30000 });
+    console.log('[DEBUG] First page loaded');
     
     // Get page title for debugging
     const title = await page.title();
@@ -86,13 +92,15 @@ async function main() {
     for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
       const pageUrl = `${baseUrl}?page=${pageNum}`;
       console.log(`Scraping page ${pageNum}/${totalPages}: ${pageUrl}`);
+      lastScrapedUrl = pageUrl;
       
-      if (pageNum > 1) {
-        await page.goto(pageUrl, { waitUntil: 'networkidle0', timeout: 30000 });
-      }
-      
-      // Extract novels from current page using selectors from Chrome DevTools MCP analysis
-      const pageNovels = await page.evaluate(() => {
+      try {
+        if (pageNum > 1) {
+          await page.goto(pageUrl, { waitUntil: 'networkidle0', timeout: 30000 });
+        }
+        
+        // Extract novels from current page using selectors from Chrome DevTools MCP analysis
+        const pageNovels = await page.evaluate(() => {
         const novels: Array<{
           title: string;
           link: string;
@@ -166,20 +174,25 @@ async function main() {
       
       console.log(`Found ${pageNovels.length} novels on page ${pageNum}`);
       novels.push(...pageNovels);
+      } catch (pageError) {
+        console.error(`[DEBUG] Error on page ${pageNum}:`, pageError);
+      }
     }
     
     console.log(`Total novels scraped: ${novels.length}`);
     
   } catch (error) {
-    console.error(`Failed to scrape website: ${error}`);
+    console.error(`[DEBUG] Failed to scrape website: ${error}`);
+    console.error(`[DEBUG] Last URL being scraped: ${lastScrapedUrl}`);
     if (error instanceof Error) {
-      console.error(error.stack);
+      console.error('[DEBUG] Stack trace:', error.stack);
     }
     console.log("Using empty novel list");
     novels = [];
     
-    // Store error for Discord message
-    errorLog = error instanceof Error ? `${error.name}: ${error.message}` : String(error);
+    // Store detailed error for Discord message
+    const errorDetails = error instanceof Error ? error.stack : String(error);
+    errorLog = `[DEBUG] Error at: ${lastScrapedUrl}\n${errorDetails}`;
   } finally {
     if (browser) {
       await browser.close();
